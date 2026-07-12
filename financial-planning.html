@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Financial Planning | PhamiLe Financial</title>
+<meta name="description" content="Our four-step financial planning process — getting to know you, analyzing your situation, presenting your plan, and putting it into action.">
+<link rel="icon" href="assets/logo-square-blue.png">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="logo-link">
+      <img src="assets/logo-navy.png" alt="PhamiLe Financial">
+    </a>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="offering.html">Insurance Solutions</a></li>
+        <li><a href="financial-planning.html" class="active">Financial Planning</a></li>
+        <li><a href="contact.html">Contact us</a></li>
+        <li><a href="about.html">About us</a></li>
+      </ul>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="wrap">
+    <div class="eyebrow"><span class="shield-dot"></span> Financial Planning</div>
+    <h1>What the heck is financial planning?</h1>
+    <p>Let's do it together. Financial planning is like creating a roadmap to your dreams — guiding you to manage your money, build wealth, and prepare for life's uncertainties, so you can confidently stay on course toward the future you've always envisioned.</p>
+  </div>
+</section>
+
+<section class="process">
+  <div class="wrap">
+    <h2>Our planning process</h2>
+    <div class="process-grid">
+      <div class="step">
+        <span class="step-num">Step 1</span>
+        <h3>Getting to know you</h3>
+        <p>We meet with you virtually or in person to understand your unique needs, priorities, and goals.</p>
+      </div>
+      <div class="step">
+        <span class="step-num">Step 2</span>
+        <h3>Analyzing your situation</h3>
+        <p>Using the information you provide, we dive into the details of your finances — identifying risks, opportunities, and strategies aligned with your goals.</p>
+      </div>
+      <div class="step">
+        <span class="step-num">Step 3</span>
+        <h3>Presenting your plan</h3>
+        <p>We share our findings and personalized recommendations, tailored solutions designed to set you up for success.</p>
+      </div>
+      <div class="step">
+        <span class="step-num">Step 4</span>
+        <h3>Putting it into action</h3>
+        <p>We help you implement the solutions and provide ongoing monitoring and adjustments to keep you on track.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="contact-section">
+  <div class="wrap">
+    <div class="eyebrow"><span class="shield-dot"></span> Let's plan together</div>
+    <h2>Fill out your info and a representative will get back to you</h2>
+    <div class="contact-grid" style="margin-top:32px;">
+      <div class="contact-info">
+        <h3>PhamiLe Financial</h3>
+        <p>A PhamiLe representative will reach out to you to schedule a consultation.</p>
+        <ul class="contact-list">
+          <li><span class="ico">&#9742;</span> <a href="tel:+18325737497">(832) 573-7497</a></li>
+          <li><span class="ico">&#9993;</span> <a href="mailto:phamleins@gmail.com">phamleins@gmail.com</a></li>
+        </ul>
+      </div>
+      <div class="form-card">
+        <form data-contact-form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <div class="field">
+            <label for="fp-name">Full name</label>
+            <input type="text" id="fp-name" name="Full Name" required>
+          </div>
+          <div class="form-row">
+            <div class="field">
+              <label for="fp-phone">Phone number</label>
+              <input type="tel" id="fp-phone" name="Phone Number">
+            </div>
+            <div class="field">
+              <label for="fp-email">Email address</label>
+              <input type="email" id="fp-email" name="Email Address" required>
+            </div>
+          </div>
+          <div class="field">
+            <label for="fp-message">Your message</label>
+            <textarea id="fp-message" name="Message" placeholder="Tell us a bit about your goals..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send message</button>
+          <p class="form-note">Thank you for taking the first step toward achieving your financial goals — a PhamiLe representative will reach out to schedule a consultation.</p>
+          <div class="form-success">Thanks! Your message is on its way.</div>
+          <div class="form-error">Something went wrong. Please try again, or call us directly.</div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <div>
+        <img src="assets/logo-navy.png" alt="PhamiLe Financial" style="filter:invert(1) brightness(2);">
+        <p style="max-width:32ch;margin:0;">Policyholder? More than that, a PhamiLe member.</p>
+      </div>
+      <ul class="footer-nav">
+        <li><a href="offering.html">Insurance Solutions</a></li>
+        <li><a href="financial-planning.html">Financial Planning</a></li>
+        <li><a href="contact.html">Contact us</a></li>
+        <li><a href="about.html">About us</a></li>
+      </ul>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span id="year"></span> PhamiLe Financial. All rights reserved.</span>
+      <span>(832) 573-7497 &nbsp;·&nbsp; phamleins@gmail.com</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

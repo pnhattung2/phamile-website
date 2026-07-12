@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact us | PhamiLe Financial</title>
+<meta name="description" content="Get in touch with PhamiLe Financial. Call (832) 573-7497, email phamleins@gmail.com, or send us a message.">
+<link rel="icon" href="assets/logo-square-blue.png">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="logo-link">
+      <img src="assets/logo-navy.png" alt="PhamiLe Financial">
+    </a>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="offering.html">Insurance Solutions</a></li>
+        <li><a href="financial-planning.html">Financial Planning</a></li>
+        <li><a href="contact.html" class="active">Contact us</a></li>
+        <li><a href="about.html">About us</a></li>
+      </ul>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="wrap">
+    <div class="eyebrow"><span class="shield-dot"></span> Contact us</div>
+    <h1>Let's get in touch!</h1>
+    <p>Fill out your information below, and one of our representatives will contact you shortly.</p>
+  </div>
+</section>
+
+<section class="contact-section">
+  <div class="wrap">
+    <div class="contact-grid">
+      <div class="contact-info">
+        <h3>PhamiLe Financial</h3>
+        <p>Prefer to reach out directly? We're happy to talk.</p>
+        <ul class="contact-list">
+          <li><span class="ico">&#9742;</span> <a href="tel:+18325737497">(832) 573-7497</a></li>
+          <li><span class="ico">&#9993;</span> <a href="mailto:phamleins@gmail.com">phamleins@gmail.com</a></li>
+        </ul>
+      </div>
+
+      <div class="form-card">
+        <form data-contact-form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <div class="form-row">
+            <div class="field">
+              <label for="c-first">First name</label>
+              <input type="text" id="c-first" name="First Name" required>
+            </div>
+            <div class="field">
+              <label for="c-last">Last name</label>
+              <input type="text" id="c-last" name="Last Name" required>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="field">
+              <label for="c-email">Email</label>
+              <input type="email" id="c-email" name="Email" required>
+            </div>
+            <div class="field">
+              <label for="c-phone">Phone</label>
+              <input type="tel" id="c-phone" name="Phone">
+            </div>
+          </div>
+          <div class="field">
+            <label for="c-message">Message</label>
+            <textarea id="c-message" name="Message"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send message</button>
+          <div class="form-success">Thank you for contacting us. We'll get back to you as soon as possible.</div>
+          <div class="form-error">Oops, there was an error sending your message. Please try again later.</div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <div>
+        <img src="assets/logo-navy.png" alt="PhamiLe Financial" style="filter:invert(1) brightness(2);">
+        <p style="max-width:32ch;margin:0;">Policyholder? More than that, a PhamiLe member.</p>
+      </div>
+      <ul class="footer-nav">
+        <li><a href="offering.html">Insurance Solutions</a></li>
+        <li><a href="financial-planning.html">Financial Planning</a></li>
+        <li><a href="contact.html">Contact us</a></li>
+        <li><a href="about.html">About us</a></li>
+      </ul>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span id="year"></span> PhamiLe Financial. All rights reserved.</span>
+      <span>(832) 573-7497 &nbsp;·&nbsp; phamleins@gmail.com</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
